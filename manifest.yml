@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SantanderEspanaOCC
+  host: SantanderEspanaOCC
+  disk_quota: 1024M
+  services:
+  - SantanderEspanaOCC-AdvancedMobileAccess
+  - SantanderEspanaOCC-imfpush
+  - SantanderEspanaOCC-cloudantNoSQLDB
+  - availability-monitoring-auto
